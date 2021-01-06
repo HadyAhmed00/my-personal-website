@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="discription" content="Welcom to my websit it is my presonla websit">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/website icon.png">
     <title>
         Hady Ahemed websit
     </title>
@@ -151,13 +152,6 @@
             color: #ffd800;
         }
         
-        #facebool_link {
-            color: #f30a0a;
-            margin-top: 20px;
-            margin-left: 10cm;
-            margin-right: 10cm;
-        }
-        
         #intro {
             margin-left: 600px;
             font-family: "Berlin Sans FB";
@@ -191,6 +185,16 @@
         li a:hover {
             background-color: #111;
         }
+        
+        .active {
+            background-color: #ffd800;
+            color: #434343;
+        }
+        
+        .active:hover {
+            background-color: #000000;
+            color: #ffd800;
+        }
     </style>
 
 </head>
@@ -204,10 +208,10 @@
     </h2>
 
     <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">Resume</a></li>
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="https://drive.google.com/file/d/1DjTKHXfsw5hp4zuR20hltnT9LwQvd0A3/view?usp=sharing">Resume</a></li>
         <li><a href="#contact">Project</a></li>
-        <li><a class="active" href="#about">About me</a></li>
+        <li><a href="#about">About me</a></li>
     </ul>
 
     <div>
@@ -221,9 +225,9 @@
     </p>
 
     <div class="bottoms">
-        <button id="yollo">Resume</button>
-        <button id="blue">Disignes</button>
-        <button id="red">Certificates</button>
+        <button onclick="window.location.href='https://drive.google.com/file/d/1DjTKHXfsw5hp4zuR20hltnT9LwQvd0A3/view?usp=sharing'" id="yollo">Resume</button>
+        <button onclick="window.location.href='https://drive.google.com/drive/folders/1Nos1upBK_6dU4wNcb43WrCt2Zcf2YwR7?usp=sharing'" id="blue">Designs</button>
+        <button onclick="window.location.href='https://drive.google.com/drive/folders/1c9fBIgJbYorq6WmwXkCIMYfPikMYN94C?usp=sharing'" id="red">Certificates</button>
 
     </div>
     <p id="intro">
@@ -234,7 +238,7 @@
 
         <div id="links">
             <a href="https://mail.google.com" id="elink">hadyahmed5000@gamil.com</a>
-            <a hrer="#whatsa" id="whats">+20-01018314139</a>
+            <a href="whtsapp" id="whats">+20-01018314139</a>
             <a href="https://www.facebook.com/hady.ahmed.58958" id="facebook_linl">/hady.ahmed.58958</a>
             <a href="https://github.com/HadyAhmed00" id="githuplink">/HadyAhmed00</a>
         </div>
