@@ -2,6 +2,22 @@ body {
     background-color: #434343;
 }
 
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
 #name {
     font-family: "Berlin Sans FB";
     font-weight: normal;
@@ -17,64 +33,75 @@ body {
     color: #ffd800;
 }
 
-#icons {
-    margin-top: 60px;
-    background-color: #ffd800;
-    height: 100px;
-    width: auto;
+#personal_info {
+    width: fit-content;
 }
 
-#email {
-    margin-top: 20px;
-    margin-left: 2cm;
+#personal_info:hover {
+    cursor: pointer;
+    animation: onit ease-out 0.6s forwards;
 }
 
-#facebook {
-    margin-top: 20px;
-    margin-left: 5cm;
-    margin-right: 7cm;
+
+/*nav*/
+
+.nav {
+    animation: formUp ease-out 1s forwards;
 }
 
-#github {
-    margin-top: 20px;
-    margin-left: 7cm;
-    margin-right: 7cm;
+ul {
+    list-style-type: none;
+    margin-left: 8cm;
+    margin-top: -2cm;
+    padding: 0;
+    overflow: hidden;
+    background-color: #434343;
 }
 
-#whatsapp {
-    margin-top: 20px;
-    margin-left: 7cm;
+li {
+    float: left;
 }
 
-a {
+li a {
     font-family: "Berlin Sans FB";
+    font-size: 24px;
+    display: block;
+    color: #ffd800;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    transition: background .2s ease-out;
+    animation: onit ease-out 0.6s forwards;
+}
+
+.active {
+    background-color: #ffd800;
     color: #434343;
 }
 
-#elink {
-    margin-left: 3.5cm;
+.active:hover {
+    background-color: #000000;
+    color: #ffd800;
+    transition: background .2s ease-out;
+    animation: onit ease-out 0.6s forwards;
 }
 
-#whats {
-    margin-left: 3.25cm;
-}
 
-#facebook_linl {
-    margin-left: 3.75cm;
-}
-
-#githuplink {
-    margin-left: 5cm;
-}
+/*body*/
 
 #my_photo {
     color: #ffd800;
     margin-left: 150px;
     margin-top: 40px;
+    animation: formRight 1s forwards;
 }
 
-#links {
-    margin-top: -1.75cm;
+.discription {
+    animation: formLeft 1s forwards;
 }
 
 #hellow {
@@ -122,19 +149,13 @@ a {
     border-radius: 100%;
 }
 
-#yollo:hover {
-    background-color: #000000;
-    color: #ffd800;
-}
-
-#blue:hover {
-    background-color: #000000;
-    color: #ffd800;
-}
-
+#yollo:hover,
+#blue:hover,
 #red:hover {
     background-color: #000000;
     color: #ffd800;
+    transition: background .2s ease-out;
+    animation: onit ease-out 0.6s forwards;
 }
 
 #intro {
@@ -144,39 +165,93 @@ a {
     color: #fff;
 }
 
-ul {
-    list-style-type: none;
-    margin-left: 8cm;
-    margin-top: -2cm;
-    padding: 0;
-    overflow: hidden;
-    background-color: #434343;
-}
 
-li {
-    float: left;
-}
+/*end and contant*/
 
-li a {
-    font-family: "Berlin Sans FB";
-    font-size: 24px;
-    display: block;
-    color: #ffd800;
+.contact {
+    height: auto;
+    width: auto;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-.active {
+    margin-top: 60px;
     background-color: #ffd800;
+}
+
+#email,
+#facebook,
+#phone,
+#github {
+    color: #434343;
+    width: fit-content;
+    display: inline-block;
+    padding-inline: 100px;
+}
+
+#email,
+#facebook,
+#phone,
+#github :hover {
+    cursor: pointer;
+}
+
+#email-link,
+#facebook-link,
+#phone-link,
+#github-link {
+    margin: 0px;
+    font-family: Berlin Sans FB;
     color: #434343;
 }
 
-.active:hover {
-    background-color: #000000;
-    color: #ffd800;
+
+/* some key freams */
+
+@keyframes onFocs {
+    0% {
+        width: 200px;
+    }
+    100% {
+        width: 400px;
+    }
+}
+
+@keyframes onit {
+    0% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(1.2, 1.2);
+    }
+}
+
+@keyframes formUp {
+    0% {
+        opacity: 0;
+        transform: translateY(-90px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes formLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-90px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes formRight {
+    0% {
+        opacity: 0;
+        transform: translateX(90px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
