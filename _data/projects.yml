@@ -1,0 +1,138 @@
+- name: LoForm
+  featured: true
+  url: https://YoussefRaafatNasry.github.io/lo_form/
+  description:
+    Lightweight and Low-code forms library for Flutter, that is inspired by the great React's Formik.
+  tags:
+    - Dart
+    - Flutter
+
+- name: Attendit
+  url: https://github.com/YoussefRaafatNasry/attendit/
+  description:
+    Attendit is a SPA for exploring and booking events, at least for now. I use it as
+    a demo to learn Full-stack Development.
+  tags:
+    - Apollo GraphQL
+    - mongoDB
+    - React
+
+- name: Aljurythm
+  url: https://www.nuget.org/packages/Aljurythm/
+  description:
+    A code judge that I have created for my Algorithms Course's Assignments, to replace
+    boilerplate code and display better outputs. It's like a testing mini-library.
+  tags:
+    - C#
+    - NuGet Package Manager
+
+- name: Detoxicated
+  featured: true
+  url: https://YoussefRaafatNasry.github.io/detoxicated/
+  description:
+    Keeping track of my social media detox, time since I've left Facebook and Instagram.
+    I think you should try quitting it too.
+  tags:
+    - HTML
+    - CSS
+
+- name: otto
+  featured: true
+  url: https://YoussefRaafatNasry.github.io/otto/
+  description:
+    otto is a smart mini-assistant that can reply "otto-matically" to basic messages
+    on chatting apps like WhatsApp, Messenger, etc. He can also do basic tasks like
+    adding received tracks to my on Spotify's liked songs.
+  tags:
+    - Kotlin
+    - Android
+    - Spotify API
+
+- name: portfolYOU
+  featured: true
+  url: https://YoussefRaafatNasry.github.io/portfolYOU/
+  description:
+    portfolYOU is a free modern open-source Jekyll portfolio and blogging theme that works
+    with GitHub Pages with a plenty of elements and a lot of possible customizations.
+  tags:
+    - Jekyll
+    - HTML
+    - Sass
+    - Ruby Gems
+
+- name: ScoutsEncoder
+  featured: true
+  url: https://YoussefRaafatNasry.github.io/ScoutsEncoder/
+  description:
+    A WPF application that encodes arabic plain text into scouts' ciphers with
+    a single button click. Usually scouts' leaders used to do the encoding using pen and paper.
+  tags:
+    - WPF
+    - C#
+    - Material Design
+
+- name: Git for Wizards
+  featured: true
+  url: https://github.com/YoussefRaafatNasry/git-for-wizards/
+  description:
+    A repo about, yeah you guessed it right, Git & GitHub where I expose most of the magic
+    spells that I have learned and the magic wands that I use regularly.
+  tags:
+    - Git
+    - GitHub
+
+- name: CP Journey
+  url: https://github.com/YoussefRaafatNasry/cp-journey/
+  description:
+    Learning a lot of data structures and algorithms and solving much more problems
+    to improve my problem solving and critical thinking skills.
+  tags:
+    - Competitive Programming
+
+- name: DRG
+  url: https://github.com/YoussefRaafatNasry/dummy-repo-generator/
+  description:
+    A bash script to generate git repository with dummy commits, helpful for educational
+    purposes and to try new git commands without destroying real-life repositories.
+  tags:
+    - Bash
+    - Script
+
+- name: Identicon Generator
+  url: https://github.com/YoussefRaafatNasry/identicon-generator/
+  description:
+    An Identicon is a visual representation of a hash value, usually of an IP address,
+    that serves to identify a user of a computer system as a form of avatar while
+    protecting the users' privacy.
+  tags:
+    - JavaFX
+    - Java
+
+- name: BST ASCII Visualization
+  url: https://github.com/YoussefRaafatNasry/bst-ascii-visualization/
+  description:
+    A command line tool for visualizing Binary Search Trees using an algorithm
+    I have developed myself from multiple algorithms that are available in
+    my case study.
+  tags:
+    - C++
+    - Data Visualization
+
+- name: RESx
+  url: https://resx.github.io/
+  tagline: Courses' materials and resources
+  description:
+    An unofficial community for collaboration to update and organize learning
+    resources of Faculty of Computer and Information Sciences at Ain Shams University.
+  tags:
+    - Jekyll
+    - HTML
+    - Sass
+    - GitHub API
+
+- name: v1
+  url: https://YoussefRaafatNasry.github.io/v1/
+  description:
+    First iteration of my personal website. It was a light theme, so not a big deal...
+  tags:
+    - Jekyll

@@ -1,0 +1,19 @@
+resume:
+  name: resume
+  url: https://docs.google.com/document/d/1IUDXlrmKFvhkr0-P2bP3NlsNMESeCzCvJoOiXRYIRz4/export?format=pdf
+
+zero-based:
+  name: "[0]"
+  url: https://zero-based.github.io
+
+github:
+  name: gh
+  url: https://github.com/YoussefRaafatNasry
+
+linkedin:
+  name: in
+  url: https://www.linkedin.com/in/YoussefRaafatNasry
+
+mail:
+  name: ma
+  url: mailto:YoussefRaafatNasry@gmail.com

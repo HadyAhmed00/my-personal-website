@@ -1,0 +1,30 @@
+languages:
+  - C#
+  - Kotlin
+  - Dart
+  - Typescript
+  - HTML5
+  - CSS3 / Sass
+  - SQL
+  - GraphQL
+
+frameworks:
+  - ASP.Net
+  - WPF
+  - Android
+  - Flutter
+  - Express
+  - Apollo
+  - React
+  - Jekyll
+
+tools:
+  - Git / GitHub
+  - Docker
+  - Firebase
+  - Visual Studio
+  - Visual Studio Code
+  - Android Studio
+  - Linux
+  - Adobe Photoshop
+  - Adobe Illustrator

@@ -1,0 +1,42 @@
+body {
+  padding: 0 ($main-spacing / 2);
+
+  @include min-width(md) {
+    position: relative;
+    display: grid;
+    grid-template-areas: "sidebar content";
+    grid-template-columns: $sidebar-width auto;
+    padding: 0 $main-spacing;
+    gap: $main-spacing;
+  }
+}
+
+.sidebar,
+.content {
+  padding: $main-spacing 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include min-width(md) {
+    grid-area: sidebar;
+    position: fixed;
+    top: 0;
+    width: $sidebar-width;
+  }
+}
+
+.content {
+  @include min-width(md) {
+    grid-area: content;
+  }
+
+  &--span {
+    grid-column: span 2;
+  }
+}

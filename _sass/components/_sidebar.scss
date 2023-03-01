@@ -1,0 +1,55 @@
+.sidebar {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+  }
+
+  &__bottom {
+    margin-top: auto;
+  }
+
+  &__logo svg {
+    stroke: white;
+    stroke-width: 6.4px;
+    width: 64px;
+  }
+
+  &__title {
+    line-height: 0.8;
+    font-size: 64px;
+    word-break: break-all;
+  }
+
+  &__bio {
+    @extend %hoverable;
+  }
+
+  &__badge {
+    width: 40%;
+    font-family: monospace;
+    text-align: right;
+    letter-spacing: 4px;
+    @extend %hoverable;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__link {
+    margin-right: 18px;
+    font-family: monospace;
+    text-transform: uppercase;
+
+    &:hover {
+      font-weight: bold;
+    }
+
+    @include min-width(md) {
+      margin-right: 32px;
+    }
+  }
+}

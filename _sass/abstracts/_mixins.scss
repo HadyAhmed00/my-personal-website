@@ -1,0 +1,14 @@
+@mixin min-width($breakpoint) {
+  @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+@mixin pseudo-element-selector($selector) {
+  $prefixes: "", "-webkit-", "-moz-";
+  @each $prefix in $prefixes {
+    #{"::" + $prefix + $selector} {
+      @content;
+    }
+  }
+}
